@@ -1,0 +1,32 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --logo-acent-color: #000;
+  --primary-acent-color: #2196f3;
+  --primary-background-color: #2f303a;
+  --primary-white: #fff;
+}
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 14px;
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-acent-color);
+}
+.header-logo-acent {
+  color: var(--logo-acent-color);
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  background-color: var(--primary-background-color);
+}
+.footer-logo-acent {
+  color: var(--primary-white);
+}
