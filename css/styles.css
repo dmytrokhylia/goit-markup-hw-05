@@ -5,12 +5,19 @@
   --primary-acent-color: #2196f3;
   --primary-background-color: #2f303a;
   --primary-white: #fff;
-  --primary-dark-color
+  --primary-dark-color: #212121;
+  --text-color: #757575;
 }
 body {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 14px;
+}
+.page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .logo {
   font-family: var(--secondary-font);
@@ -32,17 +39,72 @@ a {
   color: var(--primary-white);
 }
 .nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--primary-dark-color);
 }
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--primary-acent-color);
+  color: var(--primary-acent-color);
 }
 
 .nav-link.carent {
-    color: var(--primary-acent-color);
+  color: var(--primary-acent-color);
+}
+
+.contact-link {
+  color: var(--text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--primary-acent-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white);
+}
+
+.hero-page {
+  background-color: var(--primary-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-title {
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-dark-color);
+}
+
+.features {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
