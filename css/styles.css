@@ -5,6 +5,7 @@
   --primary-acent-color: #2196f3;
   --primary-background-color: #2f303a;
   --primary-white: #fff;
+  --primary-dark-color
 }
 body {
   font-family: var(--primary-font);
@@ -29,4 +30,19 @@ a {
 }
 .footer-logo-acent {
   color: var(--primary-white);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-dark-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--primary-acent-color);
+}
+
+.nav-link.carent {
+    color: var(--primary-acent-color);
 }
