@@ -1,17 +1,25 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --logo-acent-color: #000;
+  --logo-acent-color: #000000;
   --primary-acent-color: #2196f3;
   --primary-background-color: #2f303a;
-  --primary-white: #fff;
+  --primary-white: #ffffff;
   --primary-dark-color: #212121;
   --text-color: #757575;
+  --team-background-color: #f5f4fa;
+  --address-contact-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 .page-header {
   font-weight: 500;
@@ -28,15 +36,6 @@ body {
 }
 .header-logo-acent {
   color: var(--logo-acent-color);
-}
-a {
-  text-decoration: none;
-}
-.footer {
-  background-color: var(--primary-background-color);
-}
-.footer-logo-acent {
-  color: var(--primary-white);
 }
 .nav-link {
   color: var(--primary-dark-color);
@@ -72,7 +71,15 @@ a {
 .hero-page {
   background-color: var(--primary-background-color);
 }
-
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--primary-white);
+  background-color: var(--primary-acent-color);
+  cursor: pointer;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -88,7 +95,7 @@ a {
 }
 
 .features-title {
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -102,9 +109,59 @@ a {
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-dark-color);
+}
+
+.team-page {
+  background-color: var(--team-background-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-dark-color);
+}
+
+.team-member-position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* стиль футера */
+.footer {
+  background-color: var(--primary-background-color);
+}
+.footer-logo-acent {
+  color: var(--primary-white);
+}
+.map-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-white);
+}
+.address-contact {
+  color: var(--address-contact-color);
+}
+.address-contact:focus,
+.address-contact:hover {
+  color: var(--primary-white);
+}
+.address {
+  font-style: normal;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
