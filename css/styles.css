@@ -9,7 +9,6 @@
   --text-color: #757575;
   --secondary-background-color: #f5f4fa;
   --address-contact-color: rgba(255, 255, 255, 0.6);
-  --
 }
 body {
   font-family: var(--primary-font);
@@ -190,11 +189,11 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-dark-color)
+  color: var(--primary-dark-color);
 }
 .project-type {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--text-color)
+  color: var(--text-color);
 }
