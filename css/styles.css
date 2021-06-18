@@ -7,8 +7,9 @@
   --primary-white: #ffffff;
   --primary-dark-color: #212121;
   --text-color: #757575;
-  --team-background-color: #f5f4fa;
+  --secondary-background-color: #f5f4fa;
   --address-contact-color: rgba(255, 255, 255, 0.6);
+  --
 }
 body {
   font-family: var(--primary-font);
@@ -118,7 +119,7 @@ ul {
 }
 
 .team-page {
-  background-color: var(--team-background-color);
+  background-color: var(--secondary-background-color);
 }
 
 .team-member {
@@ -138,6 +139,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 /* стиль футера */
 .footer {
   background-color: var(--primary-background-color);
@@ -164,4 +166,35 @@ ul {
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+/* стили портфолио */
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-dark-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+}
+.portfolio-button.carent,
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--primary-white);
+  background-color: var(--primary-acent-color);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-dark-color)
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--text-color)
 }
