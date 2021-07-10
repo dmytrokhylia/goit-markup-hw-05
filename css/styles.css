@@ -281,6 +281,27 @@ ul {
   margin-right: 30px;
 }
 
+.example-box {
+  position: relative;
+}
+
+.example-text {
+  position: absolute;
+  bottom: 0;
+
+  padding: 27px;
+  height: 70px;
+  width: 100%;
+
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 .team-page {
   background-color: var(--secondary-background-color);
 }
@@ -520,7 +541,7 @@ ul {
   flex-wrap: wrap;
 }
 
-.example-box {
+.project-name-box {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
